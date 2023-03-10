@@ -42,21 +42,60 @@
 } */
 
 
-.header{
-  background-color: #672280;
-  /* min-height: 200px;; */
-  display: flex;
-  color: white;
-  padding: 1.5rem
-}
+/* header */
 
-.header-left{
+.header{
   display: flex;
   align-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
 }
 
-.header-left > img{
+.header--image{
   width: auto;
   height: 50px;
-  
+  margin-right: 5px;
+}
+
+.header--title{
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project{
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+
+
+/* form */
+
+main{
+  padding: 36px;
+}
+
+.meme--form{
+  /* background-color: red; */
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  padding: 5rem;
+  gap: 15px;
+}
+
+.input--control{
+  /* margin: 0 2rem ; */
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.form--button{
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
