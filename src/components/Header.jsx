@@ -8,6 +8,7 @@ function Header(){
                 <h1 className="title">Meme Generator</h1>
             </div>
             <div className="header-right">
+                
             </div>
         </div>
     )
